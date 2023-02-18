@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products InfoTecs</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="js/func.js"></script>
+</head>
+ 
+<body>
+    <div class="menu">
+        <div class="radioButtonContainer">
+            <span>Sorting: </span>
+            <input type="radio" class="sortByCategory" id="category" name="sort" value="category" />
+            <label for="category">Category</label>
+            <input type="radio" class="sortByPrice" id="price" name="sort" value="price" />
+            <label for="price">Price</label>
+        </div>
+        <div class="rangeButtonContainer">
+            <label for="listLength" class="listLengthLabel">List length: 10</label>
+            <input type="range" id="listLength" name="listLength" min="1" max="30" value="10" />
+        </div>
+    </div>
+    <div class="mainContainer">
+        <div class="productsListContainer"></div>
+        <div class="popupContainer"></div>
+    </div>
+    <script src="js/script.js" type="module"></script>
+</body>
+
+</html>

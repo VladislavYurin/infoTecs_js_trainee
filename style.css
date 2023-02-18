@@ -1,0 +1,43 @@
+.productsListContainer{
+    width: 30%;
+}
+
+.product {
+    border: 1px solid black;
+    margin: 5px;
+    text-align: center;
+    height: 30px;
+}
+
+.inactive {
+    display: none;
+}
+
+.popupContainer {
+    width: 60%;
+    height: 600px;
+    position: fixed;
+    left: 35%;
+    top: 10%
+    
+}
+
+.mainContainer {
+    display: flex;
+}
+
+.productImage {
+    width: 30%;
+    position: absolute;
+    top: 2%;
+    right: 2%;
+}
+
+.popupTextContainer{
+    padding-left: 5px;
+    padding-right: 35%;
+}
+
+.selected {
+    opacity: 0.6;
+}
